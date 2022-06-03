@@ -37,3 +37,90 @@ h2 {
 h1 {
     font-family: 'Fredoka One', cursive;
 }
+
+/*********************************
+* Header
+*********************************/
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+header h1 {
+    text-align: left;
+}
+
+header div:last-child {
+    align-items: center;
+    flex-direction: row;
+}
+
+/*********************************
+* Container
+*********************************/
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+/*********************************
+* Aside/Nav
+*********************************/
+aside {
+    flex-basis: 15%;
+    min-width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+/*********************************
+* Main
+*********************************/
+main {
+    width: 85%;
+    flex-basis: 85%;
+}
+
+div[class$='row'] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.top-row img {
+    width: 100%;
+}
+
+.middle-row img {
+    width: 49%;
+}
+
+.bottom-row img {
+    width: 32%;
+}
+
+/*********************************
+* Footer
+*********************************/
