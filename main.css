@@ -5,9 +5,7 @@
  * Build Helpers
  *********************************/
 /* give each element a border */
-* {
-    border: 1px solid mediumvioletred;
-}
+
 
 /* shrink images for placement */
 img {
@@ -57,12 +55,13 @@ header div {
     flex-direction: column;
 }
 
-header h1 {
+header h1, h2 {
     text-align: left;
 }
 
 header div:last-child {
-    align-items: center;
+    justify-content: right;
+    align-content: center;
     flex-direction: row;
 }
 
